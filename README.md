@@ -54,7 +54,7 @@ AgriPen bridges traditional farming with modern AI tools — giving every farmer
 ## 📫 Contact Us
 
 📧 Email: [achraf.dev.ai@gmail.com](mailto:achraf.dev.ai@gmail.com)  
-🌐 Website: [Coming Soon](#)  
+🌐 Website: [https://agripen.onrender.com](#)  
 🔗 GitHub: [github.com/Ashref2004](https://github.com/achraf-mehloul)
 
 ---
