@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in-up">
           <div className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-white text-sm font-medium">
-            From Soil... to Artificial Intelligence
+            Hello
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
@@ -64,13 +64,11 @@ const Hero = () => {
         </div>
 
         <div className="mt-20 relative">
-          <div className="w-64 h-64 mx-auto bg-white/10 backdrop-blur-md rounded-3xl flex items-center justify-center animate-bounce-slow shadow-2xl">
-            <div className="w-16 h-48 bg-gradient-to-b from-green-400 to-green-800 rounded-full shadow-xl relative">
-              <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-8 h-8 bg-green-300 rounded-full"></div>
-              <div className="absolute bottom-0 w-full h-20 bg-amber-900 rounded-b-full opacity-50"></div>
-            </div>
-          </div>
-        </div>
+  <div className="w-64 h-64 mx-auto flex items-center justify-center animate-bounce-slow shadow-2xl">
+    <img src="/logo.png" alt="AgriPen Logo" className="w-48 h-48 object-contain rounded-3xl shadow-2xl"/>
+  </div>
+</div>
+
       </div>
 
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
