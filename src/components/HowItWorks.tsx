@@ -95,16 +95,9 @@ const HowItWorks = () => {
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl p-8">
-              <div className="aspect-square bg-gradient-to-br from-green-100 to-blue-100 rounded-2xl flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-32 h-32 bg-gradient-to-b from-green-500 to-green-700 rounded-full mx-auto mb-6 relative shadow-2xl">
-                    <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-green-300 rounded-full"></div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-amber-900/30 to-transparent rounded-full"></div>
-                  </div>
-                  <p className="text-gray-700 font-semibold text-lg">AGRIPEN Device</p>
-                  <p className="text-gray-500 text-sm mt-2">Smart Soil Analysis</p>
-                </div>
-              </div>
+            <div className="aspect-square bg-gradient-to-br from-green-100 to-blue-100 rounded-2xl flex items-center justify-center">
+                <img src="/logo.png" alt="AgriPen Logo" className="w-56 h-56 object-contain rounded-full shadow-2xl"/>
+            </div>
             </div>
           </div>
         </div>
