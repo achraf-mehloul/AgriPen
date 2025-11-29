@@ -30,12 +30,14 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">A</span>
-            </div>
-            <span className={`font-bold text-2xl ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
-              AGRIPEN
-            </span>
+          <div className="flex items-center space-x-2">
+             <img
+    src="/logo.png"
+    alt="AgriPen Logo"
+    className="w-10 h-10 object-contain"
+  />
+</div>
+
           </div>
 
           <div className="hidden md:flex space-x-8">
