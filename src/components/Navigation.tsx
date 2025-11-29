@@ -31,13 +31,8 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-2">
           <div className="flex items-center space-x-2">
-             <img
-    src="/logo.png"
-    alt="AgriPen Logo"
-    className="w-10 h-10 object-contain"
-  />
-</div>
-
+             <img src="/logo.png" alt="AgriPen Logo" className="w-10 h-10 object-contain"/>
+            </div>
           </div>
 
           <div className="hidden md:flex space-x-8">
