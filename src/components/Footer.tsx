@@ -13,12 +13,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center">
-                <Leaf className="w-6 h-6 text-white" />
-              </div>
-              <span className="font-bold text-2xl">AGRIPEN</span>
-            </div>
+          <div className="flex items-center space-x-2 mb-4">
+              <img src="/logo.png" alt="AgriPen Logo"className="w-12 h-12 object-contain"/>
+                </div>
+
             <p className="text-gray-400 mb-6 leading-relaxed max-w-md">
               Revolutionizing agriculture through intelligent soil analysis. From soil to artificial intelligence,
               we're building the future of smart farming.
